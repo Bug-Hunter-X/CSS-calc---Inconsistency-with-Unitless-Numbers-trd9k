@@ -1,0 +1,1 @@
+To fix the issue, always explicitly specify units for all values within the `calc()` function.  For instance, instead of `calc(100% - 10)` use `calc(100% - 10px)`. This ensures consistent interpretation by different browsers and avoids unexpected behavior.  Ensuring consistency across browsers, especially for different CSS properties, is key to avoiding this error.
